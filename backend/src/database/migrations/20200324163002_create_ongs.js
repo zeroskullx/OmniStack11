@@ -10,5 +10,5 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-  return knex.knex.schema.dropTable("ongs");
+  return knex.schema.dropTable("ongs");
 };
